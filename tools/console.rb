@@ -58,7 +58,8 @@ p richard.listings == [apt2, apt1]
 p richard.trips == [trip2, trip4]
 p peter.trip_count == 2
 p Guest.pro_traveller == [tom, richard, peter]
-p Guest.find_all_by_name("Tom") == [tom, tom2]p Guest.all == [tom,richard,peter,lindsay, tom2]
+p Guest.find_all_by_name("Tom") == [tom, tom2]
+p Guest.all == [tom,richard,peter,lindsay, tom2]
 puts "------Testing Listing Methods------- "
 p Listing.all == [apt1, apt2, apt3, apt4]
 p apt1.guests == [tom, richard, tom]
